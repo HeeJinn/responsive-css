@@ -1,0 +1,16 @@
+.container{
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container div{
+    width: 100px;
+    line-height: 75px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    background-color: orange;
+}

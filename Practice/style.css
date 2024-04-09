@@ -1,0 +1,41 @@
+img{
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:darkslateblue;
+}
+nav li{
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height:35px;
+    height: 40px;
+    border-bottom: 1px solid #393434;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display:block;
+    text-transform: uppercase;
+    padding: 4px;
+    font-weight: bold;
+    width: 120px;
+    
+    }
+.content, .art{
+    width: 50%;
+}
+nav a:hover, a:active{
+    
+    color: pink;
+    background-color: white;
+}
+nav a :visited{
+    color: black;
+}

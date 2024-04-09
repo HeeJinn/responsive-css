@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    border: 1px solid blue;
+    margin: 60px auto; /*top_bottom - Left-Right Center the container*/
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(2, 120px); /*Height*/
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-auto-rows: 120px; /*fixes some wdith that are not specified*/
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: red;
+    grid-column: 1/-1; /*occupy entire column*/
+}
+.box3{
+    background-color: green;
+
+}
+.box4{
+    background-color: yellow;
+
+}
+.box5{
+    background-color: orange;
+    grid-row: 1/2; /*starting line_ending line*/
+    grid-column: 2/-1;
+
+}
+.box6{
+    background-color: violet;
+
+}
